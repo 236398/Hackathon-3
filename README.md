@@ -1,3 +1,6 @@
+Summary of this E-commerce Marketplace Project.
+
+
 Project Overview:
         The application implements a web solution through Next.js framework which serves as a popular React development platform. The application integrates Sanity as a headless CMS platform for content management purposes. This web application requires different web page elements alongside necessary arrangements and multiple sections to work as a contemporary web solution.
 
