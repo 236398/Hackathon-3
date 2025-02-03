@@ -1,16 +1,13 @@
-import { type SchemaTypeDefinition } from 'sanity';
-import category from './category';
-import product from './product';
-import order from './order';
-import user from './user';
-
+import { type SchemaTypeDefinition } from "sanity";
+import { productSchema } from "./products";
+import { categorySchema } from "./categories";
+import product from './product'
+import category from './category'
+import user from './user'
+import order from './order'
 
 export const schema: { types: SchemaTypeDefinition[] } = {
-  types: [
-    category,
-    product,
-    order,
-    user,
-
-  ],
+  types: [productSchema, categorySchema, product, category, user, order],
 };
+
+export const schemaTypes = [product, category, user, order]
