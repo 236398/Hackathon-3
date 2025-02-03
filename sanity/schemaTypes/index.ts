@@ -1,4 +1,3 @@
-// MultipleFiles/index.ts
 import { type SchemaTypeDefinition } from 'sanity';
 import category from './category';
 import product from './product';
